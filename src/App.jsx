@@ -1,10 +1,12 @@
-
+import FoodList from './FoodList';
+import Icon from './Icons.jsx';
 
 function App() {
 
   return (
     <>
-      <h1>Welcome</h1>
+        <Icon />
+      <FoodList />
     </>
   )
 }
