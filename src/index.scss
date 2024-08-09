@@ -1,63 +1,28 @@
-// * GLOBAL *
-// - Variables
-$font-family: sans-serif;
-
-// - Font Size
-$root-font-size: 16px;
-
-// - Font Weights
-$font-thin: 100;
-$font-regular: 400;
-$font-bold: 700;
-$font-black: 900;
+// * GLOBAL STYLES *
 
 // - Colors
-$color-blue: #0000ff;
+$red: #ff0000;
 
-// - Layout & Design
-$border-radius: .25rem;
+// - Font Families
+$paragraph-font: serif;
+$heading-font: sans-serif;
 
-// Setting root font size for assured REM unit size & accuracy
+// - Font Sizes
+$root-font-size: 16px;
+
+// ADD MORE SECTIONS
+
 :root {
-  font-size: $root-font-size;
+    font-size: $root-font-size;
 }
 
-// - Simple Reset
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-// - General
 body {
-  font-family: $font-family;
-  padding: 1rem;
+    font-family: sans-serif;
 }
 
-header {}
-
-main {}
-
-footer {}
-
-h1, h2, h3, h4, h5, h6 {}
-
-p {}
-
-// * COMPONENTS *
-// - Header Component
-header {
-  a.logo {
-    color: $color-blue;
-  }
-  nav {
-    ul {
-      li {
-        a {
-          color: $color-blue;
-        }
-      }
-    }
-  }
-}
